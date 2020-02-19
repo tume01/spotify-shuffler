@@ -1,9 +1,8 @@
-package spotify_shuffler
+package main
 
 import "github.com/spotify-shuffler/pkg/spotify"
 
 func main() {
-	manager := spotify.Manager{}
-	_ = manager.ShufflePlaylist()
+	spotify.Test()
 }
 
